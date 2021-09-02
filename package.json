@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/bkaminski/ridley-park#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "node-bourbon": "^4.2.8",
+    "sass": "^1.39.0"
   },
   "dependencies": {
     "bourbon": "^7.0.0",
@@ -38,6 +40,8 @@
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
     "gulp-watch": "^5.0.1",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "npx": "^10.2.2",
+    "plumber": "^0.4.8"
   }
 }
