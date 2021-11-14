@@ -99,7 +99,62 @@ a img.aligncenter {
   /* Above WP toolbar. */
 }
 
-.body {
-  color: rgba(12, 207, 61, 0.363);
+html {
+  scroll-behavior: smooth;
+}
+
+.ridley-hero {
+  width: 100%;
+  min-height: 600px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-heading {
+  font-size: 4rem;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 120px;
+  margin-left: 40px;
+}
+
+.text-shadow {
+  text-shadow: 3px 2px #222;
+}
+
+.weather-widget {
+  position: absolute;
+  right: 0;
+  height: 300px;
+  width: 300px;
+  background: #EDEDED;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+.upcoming-events {
+  background: #EDEDED;
+  min-height: 150px;
+  margin-top: -75px;
+  z-index: 1;
+}
+
+.horizon-bar {
+  width: 40%;
+  height: 3px;
+  background: #BA3F3E;
+  margin-top: 0.8rem;
+}
+
+.footer {
+  color: #fff;
+  position: relative;
+  display: block;
+  background: #142E44;
+  width: 100%;
+  min-height: 400px;
 }
 /*# sourceMappingURL=dmiStyles.min.css.map */

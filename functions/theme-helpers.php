@@ -79,3 +79,10 @@ function bootstrap_fluid_images( $html ){
 }
 add_filter( 'the_content','bootstrap_fluid_images',10 );
 add_filter( 'post_thumbnail_html', 'bootstrap_fluid_images', 10 );
+//BEGIN READ MORE BUTTON ON TAGS AND BLOG
+function excerpt_read_more_link($output)
+{
+    global $post;
+    return $output . '<a class="btn btn-lg btn-danger text-uppercase rounded-0 pr-4 pl-4 mt-4" href="' . get_permalink() . '">Learn More <i class="fas fa-angle-double-right fa-fw fa-lg"></i></a>';
+}
+add_filter('the_excerpt', 'excerpt_read_more_link');
